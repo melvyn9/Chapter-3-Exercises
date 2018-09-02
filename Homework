@@ -1,0 +1,167 @@
+for i in range (1,1001):
+    print("We like python turtles!")
+
+print("Three attributes of my cellphone are: speakers, touchscreen and camera.")
+
+for i in range (1,10):
+    print("One of the months of the year is January and one of the months of the year is February")
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tess = turtle.Turtle()
+tess.left(3645)
+#Rotates infinitely
+
+for f in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    scores = "The scores for the maths paper yesterday is" ,f,
+    print(scores)
+
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 0
+for f in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    scores = "The scores for the maths paper yesterday is" ,f,
+    print(scores)
+    print(f**2)
+total = sum(xs)
+print("The total score for the maths test is " ,total,)
+
+Products = 1
+for xs in [12, 10, 32, 3, 66, 17, 42, 99, 20]:
+    Products = xs * Products
+    print("The products from xs is" ,Products,)
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+wn.title("Triangle")
+
+melvyn = turtle.Turtle()
+melvyn.color("hotpink")
+melvyn.pensize(5)
+
+melvyn = turtle.Turtle()
+
+melvyn.forward(80)
+melvyn.left(120)
+melvyn.forward(80)
+melvyn.left(120)
+melvyn.forward(80)
+melvyn.left(120)
+
+melvyn.right(180)
+melvyn.forward(80)
+
+melvyn.forward(50)
+melvyn.left(90)
+melvyn.forward(50)
+melvyn.left(90)
+melvyn.forward(50)
+melvyn.left(90)
+melvyn.forward(50)
+melvyn.left(90)
+
+for a in range(0,6):
+        melvyn.forward(120)
+        melvyn.right(60)
+for b in range(0,8):
+        melvyn.forward(120)
+        melvyn.left(45)
+
+import turtle
+Melvyn = turtle.Screen()
+Melvyn.setup()
+Mel = turtle.Turtle()
+drunk = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+for i in range(0,len(drunk)):
+    Mel.forward(100)
+    Mel.right(drunk[i])
+print(Mel.heading())
+
+#20 degress
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+wn.title("Clock")
+
+turtle.color("purple")
+turtle.circle(100, extent=720, steps=5)
+
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+wn.title("Clock")
+
+melvyn = turtle.Turtle()
+melvyn.color("darkblue")
+melvyn.pensize(1)
+melvyn.left(90)
+melvyn.forward(100)
+
+melvyn1 = turtle.Turtle()
+melvyn1.color("darkblue")
+melvyn1.pensize(1)
+melvyn1.left(120)
+melvyn1.forward(100)
+
+melvyn2 = turtle.Turtle()
+melvyn2.color("darkblue")
+melvyn2.pensize(1)
+melvyn2.left(150)
+melvyn2.forward(100)
+
+melvyn3 = turtle.Turtle()
+melvyn3.color("darkblue")
+melvyn3.pensize(1)
+melvyn3.left(180)
+melvyn3.forward(100)
+
+melvyn4 = turtle.Turtle()
+melvyn4.color("darkblue")
+melvyn4.pensize(1)
+melvyn4.left(210)
+melvyn4.forward(100)
+
+melvyn5 = turtle.Turtle()
+melvyn5.color("darkblue")
+melvyn5.pensize(1)
+melvyn5.left(240)
+melvyn5.forward(100)
+
+melvyn6 = turtle.Turtle()
+melvyn6.color("darkblue")
+melvyn6.pensize(1)
+melvyn6.left(270)
+melvyn6.forward(100)
+
+melvyn7 = turtle.Turtle()
+melvyn7.color("darkblue")
+melvyn7.pensize(1)
+melvyn7.left(300)
+melvyn7.forward(100)
+
+melvyn8 = turtle.Turtle()
+melvyn8.color("darkblue")
+melvyn8.pensize(1)
+melvyn8.left(330)
+melvyn8.forward(100)
+
+melvyn9 = turtle.Turtle()
+melvyn9.color("darkblue")
+melvyn9.pensize(1)
+melvyn9.left(360)
+melvyn9.forward(100)
+
+melvyn10 = turtle.Turtle()
+melvyn10.color("darkblue")
+melvyn10.pensize(1)
+melvyn10.left(390)
+melvyn10.forward(100)
+
+melvyn11 = turtle.Turtle()
+melvyn11.color("darkblue")
+melvyn11.pensize(1)
+melvyn11.left(420)
+melvyn11.forward(100)
